@@ -1,0 +1,24 @@
+
+FIPS Translator (from version 3)
+
+1. Should remove or comment out print statement from FIPS translator code (line 40)
+2. Should remove or comment out lines 62, 63 of FIPS translator code
+
+
+
+Notes for user manual:
+
+For vaccination:
+
+Please install sodapy (Socrata) to get information from CDC's API. This is for the Vaccination module.
+You can use the following command:
+
+pip install sodapy
+
+
+
+
+No Texan county provides vaccination information through the CDC system.
+So vaccination info for Texas was retrieved directly from TX State Department of Health.
+Texas Department of Health publishes vaccination information at county level only as Excel file
+So it had to be processed and then merged with the CDC's information.
